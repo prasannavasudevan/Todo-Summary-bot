@@ -3,9 +3,12 @@
 A web app that lets users add, edit, and delete todos — and with one click, summarizes the todo list using Cohere AI and sends the summary to a Slack channel via webhook.
 
 **UI Snapshot**
+*front-end*
+![Screenshot_20250522_090353](https://github.com/user-attachments/assets/e2c601cd-e1a7-44e8-9a97-043bb4e96fdf)
 
-![Screenshot_20250522_033021](https://github.com/user-attachments/assets/1a8732b8-f5e1-4ba4-a886-139982281943)
+*slack*
 
+![Screenshot_20250522_090413](https://github.com/user-attachments/assets/feecf23e-41eb-4527-beee-1ab7199fb6a7)
 
 
 ## 🚀 Tech Stack
