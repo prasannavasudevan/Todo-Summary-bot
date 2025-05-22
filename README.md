@@ -1,6 +1,6 @@
 # 📝 Todo Summary Bot
 
-A full-stack web app that lets users add, edit, and delete todos — and with one click, summarizes the todo list using Cohere AI and sends the summary to a Slack channel via webhook.
+A web app that lets users add, edit, and delete todos — and with one click, summarizes the todo list using Cohere AI and sends the summary to a Slack channel via webhook.
 
 **UI Snapshot**
 
