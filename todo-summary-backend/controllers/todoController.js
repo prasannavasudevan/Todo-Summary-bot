@@ -2,12 +2,14 @@ import dotenv from 'dotenv';
 dotenv.config();
 import { CohereClient } from "cohere-ai";
 import axios from 'axios';
+// import store from '../store/store.js'
 
 let todos=[];
 
 const cohere = new CohereClient({
   token: process.env.COHERE_API_KEY,
 });
+
 
 const listTodos = async (req, res) => {
 res.json(todos)
@@ -75,7 +77,7 @@ const summarizeTodos = async (req, res) => {
         const response = await cohere.generate({
             model: 'command',
             prompt: `Summarize the following todo list:\n${todoTexts}`,
-            max_tokens: 100,
+            maxTokens: 100,
             temperature: 0.7,
         });
 

@@ -46,8 +46,8 @@ const TodoApp = () => {
       const response = await axios.post(`${backendUrl}/summarize`);
       setStatus(`Sent to Slack: ${response.data.summary}`);
     } catch (error) {
-      console.error(error);
-      setStatus("Failed to summarize or send to Slack.");
+        console.error('Axios error:', error.response || error.message);
+        setStatus("Failed to summarize or send to Slack.");
     }
   };
 
