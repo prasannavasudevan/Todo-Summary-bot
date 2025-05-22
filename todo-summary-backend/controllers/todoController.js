@@ -10,7 +10,6 @@ const cohere = new CohereClient({
   token: process.env.COHERE_API_KEY,
 });
 
-
 const listTodos = async (req, res) => {
 res.json(todos)
 }
