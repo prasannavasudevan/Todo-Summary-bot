@@ -4,7 +4,8 @@ A full-stack web app that lets users add, edit, and delete todos — and with on
 
 **UI Snapshot**
 
-![Screenshot_20250522_013603](https://github.com/user-attachments/assets/0963e5d8-eae5-4acc-94f8-baeb5e5ded0f)
+![Screenshot_20250522_033021](https://github.com/user-attachments/assets/1a8732b8-f5e1-4ba4-a886-139982281943)
+
 
 
 ## 🚀 Tech Stack
